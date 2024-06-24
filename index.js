@@ -20,7 +20,7 @@ function findMax(array) {
   if (array.length === 0) {
     return null;
   }
-  let maxValue = arr[0];
+  let maxValue = array[0];
 
   for (let i = 0; i < array.length; i++) {
     if (array[i] > maxValue) {
